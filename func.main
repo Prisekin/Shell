@@ -1,0 +1,6 @@
+#!/usr/local/bin/bash
+clock()
+{
+ ls -lia
+ xclock -d -bg black -fg green -update 1 &
+}
